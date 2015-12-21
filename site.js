@@ -10,6 +10,6 @@ var staticSiteOptions = {
 
 // Запуск сайта:
 express().use(express.static(
-	path.join(__dirname, 'static'),
+	path.join(__dirname, 'static'),//папка static
    staticSiteOptions
 )).listen(staticSiteOptions.portnum);
